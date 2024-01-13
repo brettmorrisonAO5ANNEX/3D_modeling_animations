@@ -1,1 +1,1 @@
-# 3D_modeling_animations
+A repository of the animations I make for a video on 3D modeling techniques.
