@@ -1,0 +1,11 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/brettmorrison/Code Projects/Repos/3D_modeling_animations/media/videos/bezier/480p15/partial_movie_files/BezierTest/2550307886_3467205283_3046192732.mp4'
+file 'file:/Users/brettmorrison/Code Projects/Repos/3D_modeling_animations/media/videos/bezier/480p15/partial_movie_files/BezierTest/2732211768_3825310928_3691193114.mp4'
+file 'file:/Users/brettmorrison/Code Projects/Repos/3D_modeling_animations/media/videos/bezier/480p15/partial_movie_files/BezierTest/2732211768_2304249630_2827946319.mp4'
+file 'file:/Users/brettmorrison/Code Projects/Repos/3D_modeling_animations/media/videos/bezier/480p15/partial_movie_files/BezierTest/2732211768_1695974270_259246728.mp4'
+file 'file:/Users/brettmorrison/Code Projects/Repos/3D_modeling_animations/media/videos/bezier/480p15/partial_movie_files/BezierTest/2732211768_2540325620_3162736358.mp4'
+file 'file:/Users/brettmorrison/Code Projects/Repos/3D_modeling_animations/media/videos/bezier/480p15/partial_movie_files/BezierTest/2732211768_2304249630_2178032067.mp4'
+file 'file:/Users/brettmorrison/Code Projects/Repos/3D_modeling_animations/media/videos/bezier/480p15/partial_movie_files/BezierTest/2732211768_3686092619_549886323.mp4'
+file 'file:/Users/brettmorrison/Code Projects/Repos/3D_modeling_animations/media/videos/bezier/480p15/partial_movie_files/BezierTest/2732211768_2304249630_219409182.mp4'
+file 'file:/Users/brettmorrison/Code Projects/Repos/3D_modeling_animations/media/videos/bezier/480p15/partial_movie_files/BezierTest/2732211768_4281507846_3695187978.mp4'
+file 'file:/Users/brettmorrison/Code Projects/Repos/3D_modeling_animations/media/videos/bezier/480p15/partial_movie_files/BezierTest/2732211768_2304249630_2368979446.mp4'
