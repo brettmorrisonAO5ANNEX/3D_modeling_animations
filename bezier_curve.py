@@ -26,8 +26,8 @@ class BezierCurve():
             bezier_x = 0.0
             bezier_y = 0.0
             for i in range(self.n + 1):
-                bezier_x += self.bezier_sum_updater(i, t, control_points[i][0])
-                bezier_y += self.bezier_sum_updater(i, t, control_points[i][1])
+                bezier_x += self.bezier_sum_updater(i, t, control_points[0, i][0])
+                bezier_y += self.bezier_sum_updater(i, t, control_points[0, i][1])
             
             return np.array([bezier_x, bezier_y, 0])
 
@@ -43,6 +43,6 @@ class BezierCurve():
                                   color=WHITE)
 
     def __init__(self, control_points):
-        self.n = control_points.shape[0] - 1
+        self.n = control_points.shape[1] - 1
         self.parametric_eq = self.create_parametric_eq(control_points)
         self.path = self.create_path()

@@ -13,7 +13,6 @@ ACT_CONTROL_POINTS = np.full((U_PTS, V_PTS), None, dtype=object)
 
 class BezierTest(ThreeDScene):
     def create_control_point(self, axes, coords, id, u, v):
-        #create point
         cp_dot = Sphere(radius=0.1).move_to(axes.c2p(coords[0], coords[1], coords[2]))
         cp_label = MathTex(fr"P_{id}", font_size=32).next_to(cp_dot, DOWN, buff=0.2)
         cp = VGroup(cp_dot, cp_label)
@@ -22,8 +21,7 @@ class BezierTest(ThreeDScene):
         VIS_CONTROL_POINTS[u, v] = cp
 
         #strictly mathematical control points: just coords
-        ACT_CONTROL_POINTS[u, v] = coords
-
+        ACT_CONTROL_POINTS[u, v] = axes.c2p(coords[0], coords[1], coords[2])
 
     def construct(self):
         #generate axis 
@@ -35,9 +33,9 @@ class BezierTest(ThreeDScene):
         self.create_control_point(axes, np.array((2, 0, 0)), id=2, u=0, v=2)
 
         #define resulting Bezier
-        
+
         #test
-        bezier_curve = BezierCurve(np.array([[-2, 0], [0, 2], [2, 0]]))
+        bezier_curve = BezierCurve(ACT_CONTROL_POINTS)
 
         for u in range(U_PTS):
             for v in range(V_PTS):
@@ -48,7 +46,7 @@ class BezierTest(ThreeDScene):
         quad_2_vis = LIVis(p1=VIS_CONTROL_POINTS[0, 1][0], p2=VIS_CONTROL_POINTS[0, 2][0], axes=axes)
         quad_3_vis = LIVis(p1=quad_1_vis.tracker, p2=quad_2_vis.tracker, axes=axes)
 
-        self.add(bezier_curve.path, quad_1_vis.control_polygon, quad_2_vis.control_polygon, quad_3_vis.control_polygon)
+        self.add(axes, bezier_curve.path, quad_1_vis.control_polygon, quad_2_vis.control_polygon, quad_3_vis.control_polygon)
         self.wait()
 
         """
