@@ -23,7 +23,8 @@ class LIVis():
         y = np.minimum(p1_center[1], p2_center[1]) + np.abs((p2_center[1] - p1_center[1]) / 2)
         z = np.minimum(p1_center[2], p2_center[2]) + np.abs((p2_center[2] - p1_center[2]) / 2)
 
-        return Sphere(radius=0.05, color=RED).move_to(self.axes.c2p(x, y, z))
+        #return Sphere(radius=0.05, color=RED).move_to(self.axes.c2p(x, y, z))
+        return Sphere(radius=0.05, color=RED).move_to(self.p1.get_center())
     
     def create_tracker_line(self, start, end, color):
         tracker_line = Line(start.get_center(), end.get_center(), color=color)
@@ -106,4 +107,4 @@ class LIVis():
         return self.tracker.animate.move_to(new_loc)
     """
     def animate_shift(self, bezier_curve):
-        return MoveAlongPath(self.tracker, bezier_curve, rate_func=linear)
+        return MoveAlongPath(self.tracker, bezier_curve, rate_func=linear, run_time=3)

@@ -1,0 +1,6 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/brettmorrison/Code Projects/Repos/3D_modeling_animations/media/videos/scene/1080p60/partial_movie_files/BezierTest/1976804181_1540983757_1677407484.mp4'
+file 'file:/Users/brettmorrison/Code Projects/Repos/3D_modeling_animations/media/videos/scene/1080p60/partial_movie_files/BezierTest/1790293035_2304249630_2279982619.mp4'
+file 'file:/Users/brettmorrison/Code Projects/Repos/3D_modeling_animations/media/videos/scene/1080p60/partial_movie_files/BezierTest/1790293035_2451278058_3931596964.mp4'
+file 'file:/Users/brettmorrison/Code Projects/Repos/3D_modeling_animations/media/videos/scene/1080p60/partial_movie_files/BezierTest/1790293035_1413391615_1635140420.mp4'
+file 'file:/Users/brettmorrison/Code Projects/Repos/3D_modeling_animations/media/videos/scene/1080p60/partial_movie_files/BezierTest/1790293035_2304249630_2054366106.mp4'

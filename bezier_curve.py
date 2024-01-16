@@ -40,7 +40,7 @@ class BezierCurve():
     def create_path(self):
         return ParametricFunction(self.parametric_eq,
                                   t_range=(0, 1), 
-                                  color=WHITE)
+                                  color=BLUE)
 
     def __init__(self, control_points):
         self.n = control_points.shape[1] - 1
