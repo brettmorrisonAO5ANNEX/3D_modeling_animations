@@ -1,0 +1,7 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/brettmorrison/Code Projects/Repos/3D_modeling_animations/media/videos/scene/1080p60/partial_movie_files/CubicBezier/1976804181_31508844_2956916182.mp4'
+file 'file:/Users/brettmorrison/Code Projects/Repos/3D_modeling_animations/media/videos/scene/1080p60/partial_movie_files/CubicBezier/1790293035_2304249630_3147261774.mp4'
+file 'file:/Users/brettmorrison/Code Projects/Repos/3D_modeling_animations/media/videos/scene/1080p60/partial_movie_files/CubicBezier/1790293035_2304249630_362825423.mp4'
+file 'file:/Users/brettmorrison/Code Projects/Repos/3D_modeling_animations/media/videos/scene/1080p60/partial_movie_files/CubicBezier/1790293035_1609840934_713713742.mp4'
+file 'file:/Users/brettmorrison/Code Projects/Repos/3D_modeling_animations/media/videos/scene/1080p60/partial_movie_files/CubicBezier/1790293035_3999000319_802062470.mp4'
+file 'file:/Users/brettmorrison/Code Projects/Repos/3D_modeling_animations/media/videos/scene/1080p60/partial_movie_files/CubicBezier/1790293035_2304249630_97820781.mp4'
